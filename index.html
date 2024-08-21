@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rap Battle Game</title>
+</head>
+<body>
+    <h1>Rap Battle: Drake vs. Kendrick Lamar</h1>
+             <!--Change boxing ring to VS photo-->
+    <div id="battle-area">
+        <div id="player1">
+            <h2>Drake</h2>
+            <img src="https://media.tenor.com/YNYCwwW6tK8AAAAM/drake-meme-drake.gif" alt="Drake gif">
+            <p id="drake-health">Health: 100</p>
+            <!--Rename attacks in JS-->
+            <button id="drake-attack1">Oh Lord</button>
+            <button id="drake-attack2">Im upset</button>
+            <button id="drake-attack3">Top 5</button>
+        </div>
+        <div id="player2">
+            <h2>Kendrick Lamar</h2>
+            <img src="https://media.tenor.com/ocJok2LC6JsAAAAM/kendirkc-lamar-drizzy.gif" alt="Kendrick gif">
+            <p id="kendrick-health">Health: 100</p>
+            <button id="kendrick-attack1">Wop.</button>
+            <button id="kendrick-attack2">Ahh.</button>
+            <button id="kendrick-attack3">Not Like Us</button>
+        </div>
+        <div>
+            <audio id="0-To-100" src="drake-0-to-100-the-catch-up-lyrics-1.mp3"></audio>
+            <audio id="imUpset" src="im-upset.mp3"></audio>
+            <audio id="top5" src="drake-top-5.mp3"></audio>
+            
+            <audio id="WopWopWopWop" src="wop-wop-wop.mp3"></audio>
+            <audio id="ahh" src="kendrick-lamar-ahh.mp3"></audio>
+            <audio id="notlikeUs" src="they-not-like-us-kendrick-lamar.mp3"></audio></div>
+    </div>
+            <!-- Add loser sound but its not required-->
+    <div>
+        <audio id="aubsLoser" src="drake-embarrassing_Ts9wkE9.mp3"></audio>
+        <audio id="kenloses" src="kendrick-lamar-screaming.mp3"></audio>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

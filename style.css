@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('https://live-production.wcms.abc-cdn.net.au/e388bb078e32ba7b57988cac2a2d3e15?impolicy=wcms_crop_resize&cropH=1125&cropW=2000&xPos=0&yPos=0&width=862&height=485'); /* Replace with your image URL or file path */
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: navy;
+  }
+  
+  html {
+    height: 100%;
+  }
+
+  img {
+    height: 300px;
+    width: 200px;
+  }
+#battle-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#player1, #player2 {
+    margin: 0 20px;
+    
+}
+
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: navy;
+    border-color: blueviolet;
+}
